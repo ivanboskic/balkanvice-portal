@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background {
+	width: 100%;
+    height: 100vh;
+	background-image: url("../images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo {
+	margin-top: -50%;
+	margin-left: 2.5%;
+	padding-top: 12px;
+}
+
+.logo img {
+	width: 100px;
+}
+
+.link-click {
+	margin-top: -7%;
+	margin-left: 53%;
+}
+
+.link-click a li {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Arial';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 35px;
+}
+
+.link-click a li:hover {
+	color: #808080;
+}
+
+.character-img {
+	padding-top: 8px;
+}
+
+.text-info {
+	margin-top: -30%;
+	margin-left: 58%;
+}
+
+.text-info h1 {
+	font-style: 'Arial';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #808080;
+	font-size: 25px;
+}
+
+.text-info h3 {
+	font-style: 'Arial', 'initial';
+	padding-top: 12px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#connect-btn {
+	padding: 10px 20px;
+  	background-color: #808080;
+  	color: white;
+  	border: none;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+  	margin-top: 10px;
+  	margin-left: 68%;
+}
+
+#discord-btn {
+	padding: 10px 20px;
+  	background-color: #808080;
+  	color: white;
+  	border: none;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+}
+
+/* Medijalni upiti za responsivnost */
+@media screen and (max-width: 768px) {
+  .link-click {
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .text-info {
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #connect-btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #discord-btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
